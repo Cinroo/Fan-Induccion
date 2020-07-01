@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#002C60;}
+	.st1{fill:none;stroke:#0054A6;stroke-width:10;stroke-miterlimit:10;}
+	.st2{fill:#00B1EC;}
+	.st3{fill:none;stroke:#FFFFFF;stroke-width:8.4091;stroke-linecap:round;stroke-linejoin:round;}
+	.st4{fill:none;stroke:#FC1F25;stroke-width:4.4568;stroke-linecap:round;stroke-linejoin:round;}
+</style>
+<path class="st0" d="M482.4,512c0-113-99.3-204.6-221.8-204.6S38.9,399,38.9,512H482.4z"/>
+<ellipse class="st1" cx="260.7" cy="146.5" rx="139.3" ry="139.5"/>
+<g>
+	<path class="st2" d="M400,282.8L400,282.8c43.7,0,79.1,35.4,79.1,79v0c0,43.7-35.4,79-79,79h0c-43.7,0-79-35.4-79-79v0
+		C321,318.2,356.4,282.8,400,282.8z"/>
+	<polyline class="st3" points="354,366.9 375.8,395.3 446.1,328.4 	"/>
+	<path class="st4" d="M497.5,339.7c2.1,9.4,2.9,19.1,2.3,28.7"/>
+	<path class="st4" d="M445.8,271.8c20.1,10.6,36,27.7,45.3,48.4c0.8,1.8,1.6,3.6,2.3,5.4"/>
+</g>
+</svg>

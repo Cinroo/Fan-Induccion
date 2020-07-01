@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#EDEDED;stroke:#002861;stroke-width:10.5047;stroke-miterlimit:10;}
+	.st1{fill:#BBBDC2;}
+	.st2{fill:#00499D;}
+	.st3{fill:none;stroke:#00B2EF;stroke-width:10.5047;stroke-linecap:round;stroke-linejoin:round;}
+	.st4{clip-path:url(#SVGID_2_);}
+	.st5{fill:none;stroke:#626364;stroke-width:4.2059;stroke-miterlimit:10;}
+	.st6{fill:none;stroke:#EDEDED;stroke-width:10.5047;stroke-linecap:round;stroke-linejoin:round;}
+	.st7{fill:none;stroke:#00499D;stroke-width:10.5047;stroke-linecap:round;stroke-linejoin:round;}
+	.st8{fill:#FF1920;}
+	.st9{fill:none;stroke:#FFFFFF;stroke-width:5.0552;stroke-linecap:round;stroke-linejoin:round;}
+	.st10{fill:#0D2B5A;stroke:#FFFFFF;stroke-width:8.4017;stroke-linecap:round;stroke-linejoin:round;}
+	.st11{fill:none;stroke:#FFFFFF;stroke-width:8.4017;stroke-linecap:round;stroke-linejoin:round;}
+</style>
+<path id="Rectángulo_89" class="st0" d="M125.6,181.2h316.3c12.6,0,22.8,10.2,22.8,22.8v216H148.4c-12.6,0-22.8-10.2-22.8-22.8l0,0
+	V181.2z"/>
+<rect id="Rectángulo_90" x="349" y="227.4" class="st1" width="110.4" height="65.9"/>
+<path id="Rectángulo_91" class="st2" d="M0,69.1h316.3c12.6,0,22.8,10.2,22.8,22.8v216H22.8C10.2,307.9,0,297.7,0,285.1l0,0V69.1z"
+	/>
+<line id="Línea_32" class="st3" x1="129.9" y1="255.9" x2="202.7" y2="255.9"/>
+<line id="Línea_33" class="st3" x1="223.2" y1="255.9" x2="295.1" y2="255.9"/>
+<g id="Grupo_99">
+	<g>
+		<defs>
+			<rect id="SVGID_1_" x="349" y="227.4" width="110.4" height="65.9"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st4">
+			<g id="Grupo_98">
+				<line id="Línea_34" class="st5" x1="347.3" y1="293.3" x2="414.5" y2="226.2"/>
+				<line id="Línea_35" class="st5" x1="395.5" y1="295.5" x2="461" y2="230"/>
+				<line id="Línea_36" class="st5" x1="371.9" y1="294" x2="440.7" y2="225.1"/>
+				<line id="Línea_37" class="st5" x1="348.4" y1="267.1" x2="389.2" y2="226.2"/>
+				<line id="Línea_38" class="st5" x1="421.2" y1="294.9" x2="461.2" y2="255"/>
+				<line id="Línea_39" class="st5" x1="349" y1="241.3" x2="363" y2="227.3"/>
+				<line id="Línea_40" class="st5" x1="446.7" y1="294.7" x2="460.2" y2="281.2"/>
+			</g>
+		</g>
+	</g>
+</g>
+<line id="Línea_42" class="st6" x1="88.9" y1="156" x2="145.1" y2="156"/>
+<line id="Línea_43" class="st6" x1="30.2" y1="156" x2="63.5" y2="156"/>
+<line id="Línea_44" class="st6" x1="30.2" y1="117" x2="145.1" y2="117"/>
+<line id="Línea_46" class="st7" x1="162.9" y1="369.1" x2="423.7" y2="369.1"/>
+<circle id="Elipse_13" class="st8" cx="223.7" cy="135.7" r="31.2"/>
+<path id="Trazado_393" class="st9" d="M271.6,104.2c17.2,0.1,31.1,14.2,30.9,31.4s-14.2,31.1-31.4,30.9"/>
+<line id="Línea_45" class="st3" x1="30.2" y1="255.9" x2="102.9" y2="255.9"/>
+<path class="st10" d="M479.6,337.8c-26.6-16.5-61.6-8.3-78.1,18.4c-16.5,26.6-8.3,61.6,18.4,78.1c26.6,16.5,61.6,8.3,78.1-18.4
+	c8.9-14.4,10.9-32.1,5.4-48.2"/>
+<polyline class="st11" points="421.3,376.4 449.7,403 498.7,344.8 "/>
+</svg>

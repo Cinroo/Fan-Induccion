@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>#Fan | Introducción</title>
+  <script src="../js/main.js"></script> <!-- propia -->
+</head>
+<body>
+    <!-- inicio - navbar -->
+    
+      <div class="containerHamburger visibleInSmallScreen">
+          <div class="subContainerHamburger" onclick="changeMenuIcon(this); myFunction()">           
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>                
+          </div>
+      </div>
+      <div class="containerLogo">
+          <div>
+            <a href="/siteDireccion/inicio.html" uk-tooltip="title: Ir al Inicio; pos: top-bottom" >
+              <img id="logoFan" class="visibleInSmallScreen" src="../../media/icons/tituloFancelu.svg" width="100%" height="56px" alt="logo de fan">
+              <img class="visibleInBigScreen" src="../../media/icons/tituloFan.svg" width="325px" height="56px" alt="logo de Fan" srcset="">
+            </a>
+          </div>
+      </div>
+      <!-- <div class="containerForoAndHelp" style="width: 175px;"> -->
+      <div class="containerForoAndHelp">
+        <div class="subContainerForoAndHelp">
+  <!--         <a href="/dev/constructor/arquitecto.html" uk-toggle uk-tooltip="title: Arquitecto; pos: top-bottom"><img src="/media/icons/code.svg" width="35px" height="35px" alt="logo del Arquitecto"></a> -->
+          <a href="#modalForo" uk-toggle uk-tooltip="title: Consultas #Fan; pos: top-bottom"><img src="../../media/icons/foro.svg" width="35px" height="35px" alt="logo de fan"></a>
+          <a href="#modalAyuda" uk-toggle uk-tooltip="title: Información; pos: top-bottom"><img src="../../media/icons/ayuda.svg" width="35px" height="35px" alt="logo de fan"></a>
+        </div>
+      </div>
+    
+    <!-- fin - navbar -->  
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Bocadillo (balloon) de cómic</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Indie+Flower"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <style>
+      .balloon {
+        border-radius: 20px 20px 20px 0;
+        background-color: red;
+        color: floralwhite;
+        padding: 10px;
+        width: 420px;
+        font-family: "Indie Flower", cursive;
+        font-size: 2em;
+      }
+
+      .balloon:before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-bottom: 20px solid chocolate;
+        border-right: 18px solid transparent;
+        border-left: 18px solid transparent;
+        margin: -30px 0 0 40px;
+      }
+      
+      .piquito{
+        content: "";
+        /* position: absolute; */
+        width: 0;
+        height: 20px;
+        border-top: 20px solid red;
+        border-right: 20px solid transparent;
+        border-left: 0px solid transparent;
+/*         margin: 70px 0 0 -40px; */
+      }
+      .clasecualquiera:before {
+        content: "esto se agregará";
+        color: red;
+      }
+      .clasecualquiera:after {
+        content: "perrito";
+        color: red;
+      }
+    </style>
+  </head>
+
+  <body>
+    <br /><br /><br /><br />
+    <div class="balloon">
+      Te invitamos a recorrer un nuevo curso de <b>#FAN!</b>
+    </div>
+    <div class="piquito">
+
+    </div>
+    <br /><br /><br /><br />
+    <p class="clasecualquiera">
+      Esto es un párrafo
+    </p>
+  </body>
+</html>

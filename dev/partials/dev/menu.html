@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menú #Fan</title>
+  <style>
+    #accordionGestiones{
+      display: none;
+    }
+    #accordionGestiones .accordion{
+      background-color:red;
+    }
+    #accordionExample{
+      _display: none;
+    }
+    
+  </style>
+</head>
+<body>
+    <nav>
+      <div class="accordion" id="accordionExample">
+        <!--
+        ********************************************
+              start - Introducción
+        ********************************************
+        -->
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <img class="icoMenu" src="../../media/icons/menu/introduccion.svg" alt="Icono Introducción">Introducción
+              </button>
+            </h2>
+          </div>
+      
+          <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-parent="#accordionExample"> <!-- aca se utiliza show para expandir el contenedor -->
+            <div class="card-body">
+              <ul>
+                <a id="intro1" href="../introduccion/1.queEsFan.html" ><li>¿Qué es #Fan?</li></a> <!-- aca se utiliza "linkActive" para identificar la pantalla activa -->
+                <a id="intro2" href="../introduccion/2.contextoEnElTiempo.html"><li>Contexto en el tiempo</li></a>
+                <a id="intro3" href="../introduccion/3.veamosAlgunosNumeros.html"><li>Veamos algunos números</li></a>
+                <a id="intro4" href="../introduccion/4.CRM.html"><li>CRM</li></a>
+                <a id="intro5" href="../introduccion/5.quienesHacenFan.html"><li>¿Quiénes hacen #Fan?</li></a>
+                <a id="intro6" href="../introduccion/6.vistaInicial.html"><li>Vista inicial</li></a>
+                <a id="intro7" href="../introduccion/7.comoVenimos.html"><li>¿Cómo venimos?</li></a>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!--
+        ********************************************
+              end - Introducción
+        ********************************************
+        -->
+
+        <!--
+        ********************************************
+              start - Herramientas y
+              conceptos útiles
+        ********************************************
+        -->
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <img class="icoMenu" src="../../media/icons/menu/herramientasYConceptos.svg" alt="Icono Herramientas y conceptos útiles">Herramientas y conceptos útiles
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+              <ul>
+                <a id="herramientas1" href="../herramientasYConceptosUtiles/1.introduccion.html" ><li>Introducción</li></a>
+                <a id="herramientas2" href="../herramientasYConceptosUtiles/2.ingresoASalesforce.html" ><li>Ingreso a Salesforce</li></a>
+                <a id="herramientas3" href="../herramientasYConceptosUtiles/3.comoBuscoAUnCliente.html" ><li>¿Cómo busco a un cliente?</li></a>
+                <a id="herramientas4" href="../herramientasYConceptosUtiles/4.lineasFanEnSistemasLegados.html" ><li>Líneas #Fan en sistemas Legados</li></a>
+                <a id="herramientas5" href="../herramientasYConceptosUtiles/5.herramientasYConceptosUtiles.html" ><li>Conceptos útiles</li></a>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!--
+        ********************************************
+              end - Herramientas y
+              conceptos útiles
+        ********************************************
+        -->
+
+        <!--
+        ********************************************
+              start - Etapas del proyecto y
+              ejes del cambio
+        ********************************************
+        -->
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <img class="icoMenu" src="../../media/icons/menu/estapasDelProyecto.svg" alt="">Etapas del proyecto y ejes del cambio 
+
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+              <ul>
+                <a id="etapas1" href="../etapasDelProyectoYEjesDelCambio/1.etapasDelProyecto.html" ><li>Etapas del proyecto</li></a>
+                <a id="etapas2" href="../etapasDelProyectoYEjesDelCambio/2.gestionesEjesDelCambio.html" ><li>Gestiones Ejes del Cambio</li></a>
+                <a id="etapas3" href="../etapasDelProyectoYEjesDelCambio/3.validaciónDeIdentidad.html" ><li>Validación de identidad</li></a>
+                <a id="etapas4" href="../etapasDelProyectoYEjesDelCambio/4.creaciónDeCliente.html" ><li>Creación de cliente</li></a>
+                <a id="etapas5" href="../etapasDelProyectoYEjesDelCambio/5.creaciónDeCuenta.html" ><li>Creación de cuenta</li></a>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!--
+        ********************************************
+              end - Etapas del proyecto y
+              ejes del cambio
+        ********************************************
+        -->
+
+        <!--
+        ********************************************
+              start - Gestiones
+        ********************************************
+        -->
+        <div class="card">
+          <div class="card-header" id="headingFive">
+            <h2 class="mb-0">
+              <button onclick="mostrarMenuGestiones()" class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                <img class="icoMenu" src="../../media/icons/menu/gestiones.svg" alt="">Gestiones
+              </button>
+            </h2>
+          </div>
+          <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+<!--             <div class="card-body">
+              <ul>
+                <a href="#"><li>Ventas</li></a>
+                <a href="#"><li>Consultas</li></a>
+                <a href="#"><li>Gestiones</li></a>
+                <a href="#"><li>Autogestión</li></a>
+              </ul>              
+            </div> -->
+          </div>
+        </div>
+        <!--
+        ********************************************
+              end - Gestiones
+        ********************************************
+        -->
+
+
+        <!--
+        ********************************************
+              start - Asistencia a la Operación
+        ********************************************
+        -->
+        <div class="card">
+          <div class="card-header" id="headingFive">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                <img class="icoMenu" src="../../media/icons/menu/asistenaciaOperacion.svg" alt="">Asistencia a la Operación 
+              </button>
+            </h2>
+          </div>
+          <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+            <div class="card-body">
+              <ul>
+                <a id="asistencia1" href="../asistenciaALaOperacion/1.asistenciaALaOperacion.html" ><li>Introducción</li></a>
+              </ul>              
+            </div>
+          </div>
+        </div>
+        <!--
+        ********************************************
+              end - Asistencia a la Operación
+        ********************************************
+        -->
+
+      </div>
+      <div class="accordion" id="accordionGestiones">
+        <!--
+        ********************************************
+              start - Volver
+        ********************************************
+        -->
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button onclick="ocultarMenuGestiones()" class="btn btn-link" type="button" d aria-expanded="true" aria-controls="collapseOne">
+                <img class="icoMenu" src="../../media/icons/menu/gestiones/arrowBack.svg" alt="Icono Introducción">Volver
+              </button>
+            </h2>
+          </div>
+      
+          <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-parent="#accordionExample"> <!-- aca se utiliza show para expandir el contenedor -->
+
+          </div>
+        </div>
+        <!--
+        ********************************************
+              end - Volver
+        ********************************************
+        -->
+
+         <!--
+        ********************************************
+              start - Ventas
+        ********************************************
+        -->
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <img class="icoMenu" src="../../media/icons/menu/herramientasYConceptos.svg" alt="Icono Herramientas y conceptos útiles">Ventas
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+              <ul>
+                <a id="gestVentas1" href="../gestionesVentas/1.ventaDeSuscripcionesYPortables.html" ><li>Venta de suscripciones y portables</li></a>
+                <a id="gestVentas2" href="../gestionesVentas/2.cambioDeSimPresencial.html" ><li>Cambio de SIM presencial</li></a>
+                <a id="gestVentas3" href="../gestionesVentas/3.portInTelefonico.html" ><li>Port In telefónico</li></a>
+                <a id="gestVentas4" href="../gestionesVentas/4.analisisDeOperaciones.html" ><li>Análisis de operaciones</li></a>
+                <a id="gestVentas5" href="../gestionesVentas/5.nominacion.html" ><li>Nominación</li></a>
+                <a id="gestVentas6" href="../gestionesVentas/6.ventaDeServicios.html" ><li>Venta de servicios</li></a>
+                <a id="gestVentas7" href="../gestionesVentas/7.cambioDePlan.html" ><li>Cambio de plan</li></a>
+                <a id="gestVentas8" href="../gestionesVentas/8.compraDePacks.html" ><li>Compras de packs</li></a>
+                <a id="gestVentas9" href="../gestionesVentas/9.reseteoDeCuota.html" ><li>Reseteo de cuota</li></a>
+                <a id="gestVentas10" href="../gestionesVentas/10.recargaDeCredito.html" ><li>Recarga de Crédito</li></a>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!--
+        ********************************************
+              end - Ventas
+        ********************************************
+        -->
+
+        <!--
+        ********************************************
+              start - Consultas
+        ********************************************
+        -->
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <img class="icoMenu" src="../../media/icons/menu/estapasDelProyecto.svg" alt="">Consultas
+
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+              <ul>
+                <a id="gestConsultas1" href="../gestionesConsultas/1.introduccion.html" ><li>Introducción</li></a>
+                <a id="gestConsultas2" href="../gestionesConsultas/2.resumenDeCuentaCorriente.html" ><li>Resumen de cuenta corriente</li></a>
+                <a id="gestConsultas3" href="../gestionesConsultas/3.detalleDeConsumos.html" ><li>Detalle de consumos</li></a>
+                <a id="gestConsultas4" href="../gestionesConsultas/4.historiales.html" ><li>Historiales</li></a>
+                <a id="gestConsultas5" href="../gestionesConsultas/5.detalleDelPlan.html" ><li>Detalle del plan</li></a>
+                <a id="gestConsultas6" href="../gestionesConsultas/6.mora.html" ><li>Mora</li></a>
+                <a id="gestConsultas7" href="../gestionesConsultas/7.extraSaldo.html" ><li>Extra saldo</li></a>
+                <a id="gestConsultas8" href="../gestionesConsultas/8.segmentacion.html" ><li>Segmentación</li></a>
+                <a id="gestConsultas9" href="../gestionesConsultas/9.atributos.html" ><li>Atributos</li></a>
+                <a id="gestConsultas10" href="../gestionesConsultas/10.estadoDeUnaGestion.html" ><li>Estados de una gestión</li></a>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!--
+        ********************************************
+              end - Consultas
+        ********************************************
+        -->
+
+        <!--
+        ********************************************
+              start - Gestiones
+        ********************************************
+        -->
+        <div class="card">
+          <div class="card-header" id="headingFive">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                <img class="icoMenu" src="../../media/icons/menu/gestiones.svg" alt="">Gestiones
+              </button>
+            </h2>
+          </div>
+          <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+            <div class="card-body">
+              <ul>
+                <b>Modificación</b>
+                <hr>
+                <a class="gestGestiones1" href="../gestionesGestiones/1.modificacionDeDatos.html"><li>Modificación de datos</li></a>
+                <a class="gestGestiones2" href="../gestionesGestiones/2.modificacionDeDomicilio.html"><li>Modificación de domicilio</li></a>
+                <a class="gestGestiones3" href="../gestionesGestiones/3.numeroAmigos.html"><li>Números amigos</li></a>
+                <hr>
+                <a class="gestGestiones4" href="../gestionesGestiones/4.suspensionesYRehabilitaciones.html"><li>Suspensiones y rehabilitaciones</li></a>
+                <a class="gestGestiones5" href="../gestionesGestiones/5.inconvenientesConRecargas.html"><li>Inconvenientes con recargas</li></a>
+                <br>
+                <b>Facturación</b>
+                <hr>
+                <a class="gestGestiones6" href="../gestionesGestiones/6.pagoDeFacturaConTarjetaDeCredito.html"><li>Pago de factura con tarjeta de crédito</li></a>
+                <a class="gestGestiones7" href="../gestionesGestiones/7.inconvenientesConUnPago.html"><li>Inconvenientes con un pago</li></a>
+                <a class="gestGestiones8" href="../gestionesGestiones/8.inconvenientesConCargosAjuste.html"><li>Inconvenientes con Cargos Ajuste</li></a>
+                <a class="gestGestiones9" href="../gestionesGestiones/9.cambiosEnLaModalidadDeRecepDeFT.html"><li>Cambio en la modalidad de Recp de FT</li></a>
+                <a class="gestGestiones10" href="../gestionesGestiones/10.inconvenientesConRecepcionDeFT.html"><li>Inconvenientes en la recepción de FT</li></a>
+                <a class="gestGestiones11" href="../gestionesGestiones/11.reintegros.html"><li>Reintegros</li></a>
+                <hr>
+                <a class="gestGestiones12" href="../gestionesGestiones/12.marcasMoraFraude.html"><li>Marcas (mora, fraude)</li></a>
+                <a class="gestGestiones13" href="../gestionesGestiones/13.diagnostico.html"><li>Diagnóstico</li></a>
+                <a class="gestGestiones14" href="../gestionesGestiones/14.fidelizacionRetencionBaja.html"><li>Fidelización, retención y baja</li></a>
+                <a class="gestGestiones15" href="../gestionesGestiones/15.cancelacionDeBaja.html"><li>Cancelación de baja</li></a>
+                <a class="gestGestiones16" href="../gestionesGestiones/16.cancelacionDeGestiones.html"><li>Cancelación de gestiones</li></a>
+              </ul>              
+            </div>
+          </div>
+        </div>
+        <!--
+        ********************************************
+              end - Gestiones
+        ********************************************
+        -->
+
+
+        <!--
+        ********************************************
+              start - Autogestión
+        ********************************************
+        -->
+        <div class="card">
+          <div class="card-header" id="headingFive">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                <img class="icoMenu" src="../../media/icons/menu/asistenaciaOperacion.svg" alt="">Autogestión
+              </button>
+            </h2>
+          </div>
+          <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+            <div class="card-body">
+              <ul>
+                <a id="gestAutogestion1" href="../gestionesAutogestion/1.introduccion.html" ><li>Introducción</li></a>
+                <a id="gestAutogestion2" href="../gestionesAutogestion/2.ingreso.html" ><li>Ingreso</li></a>
+                <a id="gestAutogestion3" href="../gestionesAutogestion/3.funcionalidadesDisponibles.html" ><li>Funcionalidades disponibles</li></a>
+                <a id="gestAutogestion4" href="../gestionesAutogestion/4.vistaInicial.html" ><li>Vista inicial</li></a>
+                <a id="gestAutogestion5" href="../gestionesAutogestion/5.gestiones.html" ><li>Gestiones</li></a>
+                <a id="gestAutogestion6" href="../gestionesAutogestion/6.web-appAutogestion.html" ><li>Web/App Autogestión</li></a>
+              </ul>              
+            </div>
+          </div>
+        </div>
+        <!--
+        ********************************************
+              end - Autogestión
+        ********************************************
+        -->
+
+      </div>
+    </nav>
+
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Introducción a #Fan">
+
+    <title>#Fan | Introducción</title>
+    <link rel="stylesheet" href="../css/normalize.css"> <!-- resets de valores del doc -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/uikit.min.css">
+    <link rel="stylesheet" href="../css/main.css"><!-- propia -->
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script> <!-- propia -->
+
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/uikit.min.js"></script>
+    <script src="../js/uikit-icons.min.js"></script>
+    <script src="/js/menuDireccion.js"></script>
+    <script>
+      $(document).ready(function(){
+        /* $("#footer").load("partials/footer.html"); */
+        $("#menu").load("/partials/direccion/menu.html");
+        $("#contenido").load("/contents/introduccion/1.queEsFan.html");
+        $("#intro1").addClass("linkActive");
+        $("#botonAtras").addClass("linkDisable");
+        $("#botonContinuar").attr('id', 'intro2')
+      });
+    </script>
+
+</head>
+
+<body>
+  <div class="fullContainer">
+    
+    <header>
+      <div w3-include-html="../partials/direccion/navbar.html"></div> <!-- trae el navbar desde partials -->
+    </header>
+
+    <div class="container-fluid principalContainer">
+      <div id="menu" class="lateralNav visibleInBigScreen" id="lateralNav">
+
+      </div>
+
+      <div class="mainContainer">
+        <main>
+          <div id="menu" class="lateralNavMobile"></div>          
+      
+          <!-- start - ruta de la página -->
+          <div class="ruta">
+            <ul>
+              <li><a href="inicio.html">Inicio</a></li> <!-- lvl 1 -->
+              <li class="colorRojo1">></li>
+              <li id="breadcrumb2">Introducción</li><!-- lvl 2 -->
+              <li class="colorRojo1"> ></li>
+              <li id="breadcrumb3" class="colorAzul1">¿Qué es #Fan?</li> <!-- lvl 3 -->
+            </ul>
+          </div>
+          <!-- end - ruta de la página -->
+          <section id="contenido"></section>
+          <section id="testYFeedback"></section>
+
+          
+  
+          <!-- start - botonera Atrás & continuar -->
+          <section class="contBotonera">
+            <div class="botonera">
+              <!-- <a href="#" class="linkDisable"><div class="botonDisable">Atrás</div></a> --> <!-- la clase "linkDisable" y "botonDisable" se utilizan para ocultar el boton -->
+              <a id="botonAtras" href="#"><div class="botonSecondary">Atrás</div></a>
+              <a id="botonContinuar" href="#"><div class="botonPrimary">Continuar</div></a>
+            </div>
+          </section>
+          <!-- end - botonera Atrás & continuar -->
+        </main>
+      </div>
+      
+    </div>
+    <footer>   
+      <div w3-include-html="../partials/footer.html"></div> <!-- trae el footer lateral desde partials -->
+    </footer>  
+  </div>
+
+
+
+  <div class="msjRotar">
+    <div w3-include-html="../partials/direccion/rotateScreen.html"></div> <!-- trae el Msj de rotar pantalla desde partials -->
+  </div>
+  <div w3-include-html="../partials/direccion/modals.html"></div> <!-- trae los modals desde partials -->
+
+
+  <script> 
+    includeHTML(); /* inserta los partials como el navbar, menu, footer y modals */
+  </script>
+  <script src="/js/menuDireccion.js"></script>
+  <script src="../js/jquery-3.5.1.min.js"></script>
+  <script src="../js/popper.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  
+
+</body>
+</html>

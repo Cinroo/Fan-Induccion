@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>#Fan | Introducción</title>
+</head>
+<body>
+
+          <!-- inicio - titulo -->
+          <article class="bannerTitulo">
+            <div class="bannerCaja2">
+              <img  loading="lazy" src="../../media/icons/estadoDeGestiones.svg" width="100%">
+            </div>
+            <div>
+              <h1 class="titulo">Estado de una Gestión</h1>
+            </div>
+            <div class="visibleInBigScreen" style="margin-left: auto; margin-right: 20px;"><img  loading="lazy" src="../../media/icons/firulete2.svg" width="70px"></div>
+          </article>
+          <!-- fin - titulo -->
+
+          <!-- inicio - Subtitulo + texto -->
+          <article>
+            <!-- se pueden borrar las linea que no se utilice -->
+            <!-- El texto que se encuentra entre "<b> </b>" se encuentra resaltado -->
+            <p class="subtitulo"><b>Estado de una gestión</b></p>
+            <p>
+              Cuando cargás una nueva gestión, esta crea por detrás un nuevo <b>Caso</b> o una nueva <b>Orden</b>, dependiendo del tipo de gestión cargada. 
+            </p>
+            <p>
+              Los <b>Casos</b> se crean a partir de gestiones de <b>Posventa</b> mientras que las <b>Órdenes de Venta</b> derivan de gestiones de <b>Venta</b> (es decir, cuando se agregan ítems al Carrito). 
+            </p>
+            <p>
+              También existen otros tipos de Órdenes como Orden de desconexión u Orden de suspensión. Todas se visualizan en el CRM con el nombre <b>“Pedido”</b>. 
+            </p>
+          </article>
+          <!-- fin - Subtitulo + texto -->
+
+          <!-- inicio -  lista -->
+          <article>
+            <p class="subtitulo">Existen gestiones que crean una <b>Orden</b> y un <b>Caso</b> en paralelo. Por ejemplo:</p>
+            <ul class="ulChecks">
+              <li>
+                <img src="../../media/icons/check.svg" alt="" />
+                Un <b>pedido de baja</b> genera un <b>Caso de baja</b> y una <b>Orden de desconexión</b>.
+              </li>
+              <li>
+                <img src="../../media/icons/check.svg" alt="" />
+                Una <b>suspensión</b> genera un <b>Caso</b> y una <b>Orden de suspensión</b>.
+              </li>
+              <li>
+                <img src="../../media/icons/check.svg" alt="" />
+                En el caso de una <b>Portabilidad Delivery</b>, la <b>Orden</b> es la que genera el despacho del pedido (es decir, lo que se le va a enviar al cliente), mientras que el <b>Caso</b> es derivado al BO Portabilidad para que este adjunte la documentación correspondiente.
+              </li>
+            </ul>
+          </article>
+          <!-- fin -  lista -->
+                       
+          <!-- inicio - Subtitulo + texto -->
+          <article>
+            <!-- se pueden borrar las linea que no se utilice -->
+            <!-- El texto que se encuentra entre "<b> </b>" se encuentra resaltado -->
+            <p>
+              Una vez creada la gestión, el <b>Caso</b> es asignado al Inbox o a la Cola correspondiente según las reglas de derivación que apliquen. El propietario del Caso podrá ser un usuario en particular o un Inbox como Back Office Centralizado. 
+            </p>
+            <p>
+              Si ingresamos al detalle de la Orden o del Caso, vamos a poder acceder a información como el estado de la gestión, el creador, el actual propietario (es decir, a quién quedó derivada), el canal en el cuál se cargó, la fecha de apertura y de cierre, el estado de un Delivery, entre otros datos.
+            </p>
+          </article>
+          <!-- fin - Subtitulo + texto -->                                           
+        
+          <!-- inicio - lista numerada -->
+          <article>
+            <p class="subtitulo"><b>Búsqueda de Órdenes y Casos en Salesforce</b></p>
+            <p>Existen diferentes maneras de ingresar a una Orden o un Caso:</p>
+            <ol class="olNumbers">
+              <li>
+                <div style="width: 35px; margin-right: 7px;">
+                  <img src="../../media/icons/1.svg" width="100%" alt="" />
+                </div>
+                <div style="width: 90%;">
+                  <b>Desde las Últimas gestiones del cliente</b> en la Vista Inicial del cliente
+                </div>
+              </li>
+              <li>
+                <div style="width: 35px; margin-right: 7px;">
+                  <img src="../../media/icons/2.svg" width="100%" alt="" />
+                </div>
+                <div style="width: 90%;">
+                  <b>Desde “Gestiones”</b> en la Card de la línea 
+                </div>
+              </li>
+              <li>
+                <div style="width: 35px; margin-right: 7px;">
+                  <img src="../../media/icons/3.svg" width="100%" alt="" />
+                </div>
+                <div style="width: 90%;">
+                  <b>Búsqueda por número de Caso o Pedido (Orden)</b> en la barra de búsqueda
+                </div>
+              </li>
+              <li>
+                <div style="width: 35px; margin-right: 7px;">
+                  <img src="../../media/icons/4.svg" width="100%" alt="" />
+                </div>
+                <div style="width: 90%;">
+                  <b>Ingresando por “Casos”</b> y seleccionando la cola a la cual fue asignado (esta última opción aplica únicamente para buscar Casos)
+                </div>
+              </li>
+            </ol>
+          </article>
+          <!-- fin - lista numerada -->
+        
+          <!-- inicio - Subtitulo + texto -->
+          <article>
+            <!-- se pueden borrar las linea que no se utilice -->
+            <!-- El texto que se encuentra entre "<b> </b>" se encuentra resaltado -->
+            <p class="subtitulo"><img src="../../media/icons/1.svg" alt="" width="40"> <b>Desde las Últimas gestiones del cliente</b></p>
+            <p>
+              En la columna izquierda de la Vista Inicial del cliente veremos las últimas gestiones realizadas en todos los canales, allí visualizaremos tanto <b>Órdenes</b> como <b>Casos</b>. Para ingresar a alguno hacé click sobre el nombre de la gestión:
+            </p>
+          </article>
+          <!-- fin - Subtitulo + texto -->
+        
+          <!-- inicio - imagen -->
+          <article>
+            <img loading="lazy" src="../../media/img/contents/gestionesConsultas/10.estadoDeUnaGestion/estadoDeUnaGestion-11.png" width="100%" alt="imagen">
+          </article>
+          <!-- fin - imagen -->
+        
+          <!-- inicio - Subtitulo + texto -->
+          <article>
+            <!-- se pueden borrar las linea que no se utilice -->
+            <!-- El texto que se encuentra entre "<b> </b>" se encuentra resaltado -->
+            <p class="subtitulo"><img src="../../media/icons/2.svg" alt="" width="40"> <b>Desde “Gestiones” en la Card del cliente</b></p>
+            <p>
+              Otra opción es ingresar desde la <b>Card de la línea</b> haciendo click en <b>“Gestiones”</b>. Aquí verás tanto gestiones de Venta como de Posventa realizadas sobre la línea.
+            </p>
+          </article>
+          <!-- fin - Subtitulo + texto -->
+        
+          <!-- inicio - imagen -->
+          <article>
+            <img loading="lazy" src="../../media/img/contents/gestionesConsultas/10.estadoDeUnaGestion/estadoDeUnaGestion-12.png" width="100%" alt="imagen">
+          </article>
+          <!-- fin - imagen -->
+
+          <!-- inicio - Subtitulo + texto -->
+          <article>
+            <!-- se pueden borrar las linea que no se utilice -->
+            <!-- El texto que se encuentra entre "<b> </b>" se encuentra resaltado -->
+            <p>
+              Podrás filtrar las <b>Órdenes</b> y los <b>Casos</b> por rango de fechas. Para conocer el estado de cada uno verificá la columna “Estado” y para más detalle hacé click sobre el número de gestión. 
+            </p>
+          </article>
+          <!-- fin - Subtitulo + texto -->
+        
+          <!-- inicio - imagen -->
+          <article>
+            <img loading="lazy" src="../../media/img/contents/gestionesConsultas/10.estadoDeUnaGestion/estadoDeUnaGestion-13.png" width="100%" alt="imagen">
+          </article>
+          <!-- fin - imagen -->
+
+          <!-- inicio - Subtitulo + texto -->
+          <article>
+            <!-- se pueden borrar las linea que no se utilice -->
+            <!-- El texto que se encuentra entre "<b> </b>" se encuentra resaltado -->
+            <p class="subtitulo"><img src="../../media/icons/3.svg" alt="" width="40"> <b>Búsqueda por número de Caso o Pedido (Orden) en la barra de búsqueda</b></p>
+          </article>
+          <!-- fin - Subtitulo + texto -->
+
+          <!-- inicio -  lista -->
+          <article>
+            <ul class="ulChecks">
+              <li>
+                <img src="../../media/icons/check.svg" alt="" />
+                Ingresá el número de Caso o Pedido en el buscador y apretá Enter.
+              </li>
+              <li>
+                <img src="../../media/icons/check.svg" alt="" />
+                Ingresá al Caso o Pedido para ver el detalle del mismo.
+              </li>
+            </ul>
+          </article>
+          <!-- fin -  lista -->
+        
+          <!-- inicio - imagen -->
+          <article>
+            <img loading="lazy" src="../../media/img/contents/gestionesConsultas/10.estadoDeUnaGestion/estadoDeUnaGestion-14.png" width="100%" alt="imagen">
+          </article>
+          <!-- fin - imagen -->
+
+          <!-- inicio - Subtitulo + texto -->
+          <article>
+            <!-- se pueden borrar las linea que no se utilice -->
+            <!-- El texto que se encuentra entre "<b> </b>" se encuentra resaltado -->
+            <p class="subtitulo"><img src="../../media/icons/4.svg" alt="" width="40"> <b>Búsqueda desde el menú “Casos”</b> (esta opción es válida únicamente para buscar Casos)</p>
+          </article>
+          <!-- fin - Subtitulo + texto -->
+
+          <!-- inicio - slideshow -->
+          <article>
+            <div class="slideshow-container">
+              <!-- Full-width images with number and caption text -->
+              <div class="mySlides fadeIn">
+                <div class="numberSlide">1 / 4</div>
+                <img src="../../media/img/contents/gestionesConsultas/10.estadoDeUnaGestion/estadoDeUnaGestion-15.png" style="width:100%">
+              </div>
+
+              <div class="mySlides fadeIn">
+                <div class="numberSlide">2 / 4</div>
+                <img src="../../media/img/contents/gestionesConsultas/10.estadoDeUnaGestion/estadoDeUnaGestion-16.png" style="width:100%">
+                <div class="text">
+                  <div class="subText">
+                    Ingresá al menú desplegable y seleccioná la opción “Casos”.
+                  </div>
+                </div>
+              </div>
+
+              <div class="mySlides fadeIn">
+                <div class="numberSlide">3 / 4</div>
+                <img src="../../media/img/contents/gestionesConsultas/10.estadoDeUnaGestion/estadoDeUnaGestion-17.png" style="width:100%">
+                <div class="text">
+                  <div class="subText">
+                    Seleccioná la Cola a la cual fue asignado el Caso que estás buscando. En este ejemplo se seleccionó “BO Centralizado”.
+                  </div>
+                </div>    
+              </div>
+
+              <div class="mySlides fadeIn">
+                <div class="numberSlide">4 / 4</div>
+                <img src="../../media/img/contents/gestionesConsultas/10.estadoDeUnaGestion/estadoDeUnaGestion-18.png" style="width:100%">
+                <div class="text">
+                  <div class="subText">
+                    Buscá el Caso y hacé click sobre el mismo para ingresar al detalle.
+                  </div>
+                </div>
+              </div>
+
+              <!-- Next and previous buttons -->
+              <a class="prev" onclick="plusSlides(-1)">❮</a>
+              <a class="next" onclick="plusSlides(1)">❯</a>
+            </div>
+            <br>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+            <br>
+          </article>
+          <!-- fin - slideshow -->
+        
+          <!-- inicio - imagen -->
+          <article>
+            <p class="subtitulo"><b>Detalle de un Caso</b></p>
+            <p>Una vez que se encuentra el <b>Caso</b> (utilizando cualquiera de las opciones mencionadas previamente) hacé click en el mismo para acceder al detalle.</p>
+            <p>Presionando el botón <b>“Mostrar noticias en tiempo real”</b> podrás visualizar cualquier modificación que se haya hecho (apertura del caso, derivaciones a otros sectores, comentarios, cambios de Estado, cierre del caso, entre otros).</p>
+            <img loading="lazy" src="../../media/img/contents/gestionesConsultas/10.estadoDeUnaGestion/estadoDeUnaGestion-19.png" width="100%" alt="imagen">
+          </article>
+          <!-- fin - imagen -->
+        
+          <!-- inicio - imagen -->
+          <article>
+            <p>Más abajo encontrarás el <b>Detalle del Caso</b>, donde visualizarás información importante como el número y estado del caso, el propietario, fecha de apertura y de cierre, comentarios, archivos adjuntos, cambios de estado y a qué sector quedó derivado.</p>
+            <img loading="lazy" src="../../media/img/contents/gestionesConsultas/10.estadoDeUnaGestion/estadoDeUnaGestion-20.png" width="100%" alt="imagen">
+          </article>
+          <!-- fin - imagen -->
+
+          <!-- inicio - imagen -->
+          <article>
+            <p>En <b>"Historial del Caso"</b> podés ver cada modificación que se hizo sobre el Estado del mismo, junto con la fecha y el usuario que realizó dicha modificación. Más abajo se visualizarán los <b>Comentarios</b> que acompañan al Caso, escritos por el representante que lo cargó o por algún sector que haya tomado la gestión (Back Office, Cobranzas, Mora, etc.)</p>
+            <p>Por último, si existieran <b>Archivos adjuntos</b> se podrán visualizar y descargar desde ese módulo.</p>
+            <img loading="lazy" src="../../media/img/contents/gestionesConsultas/10.estadoDeUnaGestion/estadoDeUnaGestion-21.png" width="100%" alt="imagen">
+          </article>
+          <!-- fin - imagen -->
+
+          <!-- inicio - Actividad de Trainer -->
+          <article>
+            <div class="actividadContainer">
+              <div class="actividadBanner">
+                <div class="bannerCaja1">
+                  <h2>Actividad</h2>
+                  <img src="../../media/icons/firulete.svg" width="70px">
+                </div>
+                
+                <div class="bannerCaja2">
+                  <img src="../../media/icons/actividades.svg" width="100%">
+                </div>
+              </div>                  
+              <div class="actividadIframe">
+                <iframe loading="lazy" src="https://trainer.telecom.com.ar/mod/hvp/embed.php?id=36341" width="100%" height="678" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://trainer.telecom.com.ar/mod/hvp/library/js/h5p-resizer.js" charset="UTF-8"></script>
+              </div>
+            </div>
+          </article>
+          <!-- fin - Actividad de Trainer -->
+ 
+</body>
+</html>
