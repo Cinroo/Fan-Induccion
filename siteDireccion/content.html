@@ -21,11 +21,12 @@
     <script>
       $(document).ready(function(){
         /* $("#footer").load("partials/footer.html"); */
-        $("#menu").load("/partials/direccion/menu.html");
+        /* $("#menu").load("/partials/direccion/menu.html"); */
+        $("#menuMobile").load("/partials/direccion/menu.html");
         $("#contenido").load("/contents/introduccion/1.queEsFan.html");
         $("#intro1").addClass("linkActive");
-        $("#botonAtras").addClass("linkDisable");
-        $("#botonContinuar").attr('id', 'intro2')
+        $(".botonAtras").addClass("botonDisable");
+        $(".botonContinuar").attr('id', 'intro2Boton')
       });
     </script>
 
@@ -40,13 +41,14 @@
 
     <div class="container-fluid principalContainer">
       <div id="menu" class="lateralNav visibleInBigScreen" id="lateralNav">
-
       </div>
 
       <div class="mainContainer">
         <main>
-          <div id="menu" class="lateralNavMobile"></div>          
-      
+          <div id="myLinks">
+            <div id="menuMobile" class="visibleInSmallScreen lateralNavMobile"></div>          
+          </div>
+
           <!-- start - ruta de la página -->
           <div class="ruta">
             <ul>
@@ -67,8 +69,9 @@
           <section class="contBotonera">
             <div class="botonera">
               <!-- <a href="#" class="linkDisable"><div class="botonDisable">Atrás</div></a> --> <!-- la clase "linkDisable" y "botonDisable" se utilizan para ocultar el boton -->
-              <a id="botonAtras" href="#"><div class="botonSecondary">Atrás</div></a>
-              <a id="botonContinuar" href="#"><div class="botonPrimary">Continuar</div></a>
+              <a href="#"><div class="botonSecondary botonAtras" id="botonAtras">Atrás</div></a>
+             <!--  <a href="#"><div class="botonPrimary botonContinuar" id="botonContinuar">Continuar</div></a> -->
+              <button class="botonPrimary botonContinuar" id="botonContinuar">Continuar</button>
             </div>
           </section>
           <!-- end - botonera Atrás & continuar -->

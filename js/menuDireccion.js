@@ -8,7 +8,7 @@ $(document).ready(function(){
        $(this).addClass("linkActive");
     });
 
-    $('#intro2').click(function(){
+    $('#intro2, #intro2Boton').click(function(){
        $("#contenido").load("/contents/introduccion/2.contextoEnElTiempo.html");
        $("#breadcrumb2").text("Introducción");
        $("#breadcrumb3").text("Contexto en el tiempo");
