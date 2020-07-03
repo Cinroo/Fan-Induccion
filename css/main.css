@@ -1715,6 +1715,10 @@ nav .footerIzquierdo .fontRegular .colorAzul4 {
   margin-right: 15px;
 }
 
+.botonVisibleNone {
+  display: none;
+}
+
 .contenidoCentrado {
   display: -webkit-box;
   display: -ms-flexbox;

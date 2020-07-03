@@ -1,27 +1,38 @@
 $(document).ready(function(){
     /* Introducción */
-    $('#intro1').click(function(){
+    $('#intro1, #intro1Boton').click(function(){
        $("#contenido").load("/contents/introduccion/1.queEsFan.html");
        $("#breadcrumb2").text("Introducción");
        $("#breadcrumb3").text("¿Qué es #Fan?");
        $("[class='linkActive']").removeClass("linkActive");
        $(this).addClass("linkActive");
+       /* botones atras & adelante */
+       $(".botonAtras").addClass("botonVisibleNone");
+       $(".botonContinuar").attr('id', 'intro2Boton');
+
     });
 
-    $('#intro2, #intro2Boton').click(function(){
-       $("#contenido").load("/contents/introduccion/2.contextoEnElTiempo.html");
-       $("#breadcrumb2").text("Introducción");
-       $("#breadcrumb3").text("Contexto en el tiempo");
-       $("[class='linkActive']").removeClass("linkActive");
-       $("#intro2").addClass("linkActive");
-    });
+    $('#intro2, #intro2Boton').click(function(){       
+      /* link para url */
+      $("#contenido").load("/contents/introduccion/2.contextoEnElTiempo.html");
+      $("#breadcrumb2").text("Introducción");
+      $("#breadcrumb3").text("Contexto en el tiempo");
+      $("[class='linkActive']").removeClass("linkActive");
+      $("#intro2").addClass("linkActive");
+      /* botones atras & adelante */
+      $(".botonAtras").show();
+      $(".botonAtras").attr('id', 'intro1Boton');
+      $(".botonContinuar").attr('id', 'intro3Boton');
+      /* alert("Perrito: " + $("#intro3Boton").text()); */    
+   });
 
-    $('#intro3').click(function(){
+    $('#intro3, #intro3Boton').click(function(){
        $("#contenido").load("/contents/introduccion/3.veamosAlgunosNumeros.html");
        $("#breadcrumb2").text("Introducción");
        $("#breadcrumb3").text("Veamos algunos números");
        $("[class='linkActive']").removeClass("linkActive");
-       $(this).addClass("linkActive");
+       $("#intro3").addClass("linkActive");
+
     });
 
     $('#intro4').click(function(){
