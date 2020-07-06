@@ -21,8 +21,8 @@
     <script>
       $(document).ready(function(){
         /* $("#footer").load("partials/footer.html"); */
-        $("#menu").load("/partials/direccion/menu.html");
-        $("#menuMobile").load("/partials/direccion/menu.html");
+        $("#menu").load("/partials/campaniaCambioDePlan/menu.html");
+        $("#menuMobile").load("/partials/campaniaCambioDePlan/menu.html");
         $("#contenido").load("/contents/introduccion/1.queEsFan.html");
         $("#intro1").addClass("linkActive");
         $(".botonAtras").hide();
@@ -36,7 +36,7 @@
   <div class="fullContainer">
     
     <header>
-      <div w3-include-html="/partials/direccion/navbar.html"></div> <!-- trae el navbar desde partials -->
+      <div w3-include-html="/partials/campaniaCambioDePlan/navbar.html"></div> <!-- trae el navbar desde partials -->
     </header>
 
     <div class="container-fluid principalContainer">
@@ -85,15 +85,15 @@
 
 
   <div class="msjRotar">
-    <div w3-include-html="../partials/direccion/rotateScreen.html"></div> <!-- trae el Msj de rotar pantalla desde partials -->
+    <div w3-include-html="../partials/campaniaCambioDePlan/rotateScreen.html"></div> <!-- trae el Msj de rotar pantalla desde partials -->
   </div>
-  <div w3-include-html="../partials/direccion/modals.html"></div> <!-- trae los modals desde partials -->
+  <div w3-include-html="../partials/modals.html"></div> <!-- trae los modals desde partials -->
 
 
   <script> 
     includeHTML(); /* inserta los partials como el navbar, menu, footer y modals */
   </script>
-  <script src="../js/menuDireccion.js"></script>
+  <script src="../js/menuCampaniaCambioDePlan.js"></script>
   <script src="../js/jquery-3.5.1.min.js"></script>
   <script src="../js/popper.min.js"></script>
   <script src="../js/bootstrap.min.js"></script>

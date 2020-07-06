@@ -18,7 +18,7 @@ $(document).ready(function(){
       $("#breadcrumb2").text("Introducción");
       $("#breadcrumb3").text("Contexto en el tiempo");
       $("[class='linkActive']").removeClass("linkActive");
-      $("#intro2").addClass("linkActive");
+      $(this).addClass("linkActive");
       /* botones atras & adelante */
       $(".botonAtras").show();
       $(".botonAtras").attr('id', 'intro1Boton');
@@ -151,12 +151,27 @@ $(document).ready(function(){
     });
 
     /* Gestiones - Ventas */
-    /* ACA FALTAN COLOCAR 2 LINKS */
+    $('#gestiones1').click(function(){
+      $("#contenido").load("/contents/gestionesGestiones/17.cambioDeTitularidad.html");
+      $("#breadcrumb2").text("Gestiones");
+      $("#breadcrumb3").text("Cambio de titularidad");
+      $("[class='linkActive']").removeClass("linkActive");
+      $(this).addClass("linkActive");
+   });
+
+   $('#gestiones2').click(function(){
+      $("#contenido").load("/contents/gestionesVentas/7.cambioDePlan.html");
+      $("#breadcrumb2").text("Gestiones");
+      $("#breadcrumb3").text("Cambio de plan");
+      $("[class='linkActive']").removeClass("linkActive");
+      $(this).addClass("linkActive");
+   });
+
 
     /* Asistencia a la operación */
     $('#asistencia1').click(function(){
        $("#contenido").load("/contents/asistenciaALaOperacion/1.asistenciaALaOperacion.html");
-       $("#testYFeedback").load("/contents/testYFeedback/1.direccion.html");
+       $("#testYFeedback").load("/contents/testYFeedback/2.campaniaCambioDePlan.html");
        $("#breadcrumb2").text("Asistencia a la operación");
        $("#breadcrumb3").text("Introducción");
        $("[class='linkActive']").removeClass("linkActive");
