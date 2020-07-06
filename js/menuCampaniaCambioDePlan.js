@@ -168,7 +168,7 @@ $(document).ready(function(){
    });
 
 
-    /* Asistencia a la operación */
+    /* Asistencia a la operación */ 
     $('#asistencia1').click(function(){
        $("#contenido").load("/contents/asistenciaALaOperacion/1.asistenciaALaOperacion.html");
        $("#testYFeedback").load("/contents/testYFeedback/2.campaniaCambioDePlan.html");
