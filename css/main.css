@@ -841,7 +841,7 @@ header nav {
 }
 
 .containerIconoMasTexto .caja2 {
-  width: 70%;
+  width: 100%;
   _background-color: #d9d9d9;
 }
 
@@ -2260,7 +2260,7 @@ footer {
     width: 100% !important;
   }
   .containerIconoMasTexto .caja2 {
-    width: 70%;
+    width: 100%;
   }
   .imgCentrada50 img {
     width: 80% !important;
